@@ -1,6 +1,10 @@
 # Prophase.DecodeService
 Preliminary Task - ProPhase
 
+Execution Order:
+
+--> Execute Server Project.
+--> Execute Client Project.
 
 Structure of Prophase.DecodeService :
 
@@ -27,8 +31,9 @@ Prophase.DecodeService-->
                           Example:-
                                    Change pload value to -->0x74657374206d657373616765
                                    execute server first then client project
-                               system return result as
-                                Status Code: 200, Decoded Result: test message
+                               
+                                          system return result as
+                                           Status Code: 200, Decoded Result: test message
 
                           Database:
                             No database connection defined
